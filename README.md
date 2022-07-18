@@ -22,6 +22,7 @@ This will download the project files to the directory you are in. After this com
 ## Features
 
 Print exceptions to a new .txt file, which will be timestamped.
+
 Will also append to an existing .txt file.
 
 
