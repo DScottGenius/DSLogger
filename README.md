@@ -7,6 +7,11 @@ Use this tool where exceptions occur, specify a specific name and print the deta
 
 Pull the code from the repository, and then add a project reference to the .dll to your project.
 
+For example, the following code will produce a txt log file named after Class (which can be replaced with the calling class)
+```c#
+Logger log = new Logger("", nameof(Class));
+log.WriteToLog($"{e.Message}");
+```
 ## Developing
 
 To begin developing, clone the repository here!
