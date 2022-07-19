@@ -51,7 +51,7 @@ namespace LoggerTest
         }
 
         [Test]
-        [TestCase("This line should not be overrwritten", 0, TestName ="Original line wasnt overrwritten")]
+        [TestCase("This line should not be overrwritten", 0, TestName = "Original line wasnt overrwritten")]
         [TestCase("This should be the second line!", 1, TestName = "New line was added")]
         public void FileIsntOverrwritten(string expectedLine, int lineNumber)
         {
